@@ -1,0 +1,418 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.clearfix{
+    content: '';
+    display: table;
+    width: 100%;
+    clear: both;
+}
+.container{
+	width: 1200px;
+	border: 1px solid red;
+	margin:0 auto; 
+}
+.saidbar{
+	width: 550px;
+	height: 2000px;
+	float: left;
+	border: 1px solid black;
+}
+.cont{
+	width: 630px;
+	height: 2000px;
+	float: right;
+	border: 1px solid black;
+}
+.foto{
+	width: 440px;
+	height: 380px;
+	float: left;
+	margin-left: 60px;
+
+}
+.icon{
+	width: 240px;
+	height: 240px;
+	float: left;
+	margin-left: 100px;
+	margin-top: 10px;
+	border-radius: 240px;
+	border: 2px solid  #3d6cb0;
+
+}
+.icon img{
+	width: 220px;
+	height: 220px;
+	border-radius: 170px;
+	background: #3d6cb0;
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.title{
+	width: 340px;
+	height: 110px;
+	margin-top: 15px;
+	margin-left: 50px;
+    float: left;
+}
+.title p{
+	color: #454;
+	font-size:1.8em;
+	text-align: center;
+	text-transform: uppercase;
+}
+.title h1{
+	text-align: center;
+	text-transform: uppercase;
+}
+.title h3{
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.profile{
+	width: 540px;
+	height: 460px;
+	margin-left: 5px;
+	margin-top: 60px;
+	float: left;
+}
+.profile img{
+	float: left;
+}
+.profile_title h1{
+	width: 360px;
+	color: #3d6cb0;
+	float: left;
+	margin-left: 10px;
+	padding-top: 50px;
+	text-transform: uppercase;
+}
+.profile_title  hr{
+	width: 310px;
+	background:#3d6cb0;
+	float: right;
+	margin-right: 10px;
+	margin-top: -19px;
+	height: 5px;
+}
+.text{
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+ .text p{
+ 	font-size:18px;
+ }
+
+.contact{
+	width: 540px;
+	height: 440px;
+	margin-left: 5px;
+	margin-top: 10px;
+	float: left;
+}
+.contact_title h1{
+	width: 360px;
+	color: #3d6cb0;
+	float: left;
+	margin-left: 10px;
+	margin-top: -90px;
+	
+}
+.contact_title hr{
+	width: 310px;
+	background:#3d6cb0;
+	float: right;
+	margin-right: 10px;
+	margin-top: -75px;
+	height: 5px;
+}
+.texts{
+	float: left;
+	width:540px;
+	height:50px;  
+}
+.texts h4{
+	float: left;
+	text-transform: uppercase;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 22px;
+	color:#3d6cb0; 
+}
+.texts p{
+	float: right;
+	margin-right: 270px;
+	margin-top: 14px;
+	text-transform: uppercase;
+}
+.exs{
+	float: left;
+	width:540px;
+	height:50px;
+	margin-top: 20px;
+}
+.exs h4{
+	float: left;
+	text-transform: uppercase;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 22px;
+	color:#3d6cb0;
+}
+.exs p{
+	float: right;
+	margin-right: 230px;
+	margin-top:14px;
+}
+.phone{
+	float: left;
+	width:540px;
+	height:50px;
+	margin-top: 20px;
+}
+.phone h4{
+	float: left;
+	text-transform: uppercase;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 22px;
+	color:#3d6cb0;
+}
+.phone p{
+	float: right;
+	margin-right: 300px;
+	margin-top:14px;
+}
+.web{
+	float: left;
+	width:540px;
+	height:50px;
+	margin-top: 20px;
+}
+.web h4{
+	float: left;
+	text-transform: uppercase;
+	margin-left: 10px;
+	margin-top: 10px;
+	font-size: 22px;
+	color:#3d6cb0;
+}
+.web p{
+	float: right;
+	margin-right: 250px;
+	margin-top:14px;
+}
+.skils{
+	width: 540px;
+	height: 460px;
+	margin-left: 5px;
+	margin-top: 10px;
+	float: left;
+	border: 1px solid red;
+}
+.skils_title h1{
+	width: 360px;
+	color: #3d6cb0;
+	float: left;
+	margin-left: 10px;
+	margin-top: -90px;
+	text-transform: uppercase;
+}
+.skils_title hr{
+	width: 310px;
+	background:#3d6cb0;
+	float: right;
+	margin-right:20px;
+	margin-top: -75px;
+	height: 5px;
+}
+
+
+.educetion{
+	float: right;
+	width: 620px;
+	height: 1000px;
+	margin-right: 5px;
+}
+.ed_title h1{
+	width: 260px;
+	color: #3d6cb0;
+	float: left;
+	margin-left:10px;
+	margin-top:50px;
+	text-transform: uppercase;
+}
+.ed_title hr{
+	width: 310px;
+	background:#3d6cb0;
+	float: right;
+	margin-left: 10px;
+	margin-top: 65px;
+	height: 5px;
+
+}
+.ol{
+	width: 30px;
+	height: 30px;
+	background: black;
+	border-radius:30px; 
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.decer{
+	width: 620px;
+	height: 160px;
+	float: right;
+	margin-top: 5px;
+}
+.decer h4{
+	float: left;
+	text-transform: uppercase;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 22px;
+	color:#3d6cb0;
+}
+.decer p{
+	float: left;
+	margin-top: 12px;
+	font-size: 19px;
+	margin-left: 10px;
+}
+.decer #name{
+	float: left;
+	margin-left: -375px;
+	margin-top: 40px;
+	font-size: 19px;
+}
+#lor{
+	float: left;
+	margin-left: 60px;
+
+}
+.experensi{
+	float: right;
+	width: 620px;
+	height: 650px;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+.ex_title h1{
+	width: 460px;
+	color: #3d6cb0;
+	float: right;
+	margin-right:5px;
+	margin-top:-90px;
+	text-transform: uppercase;
+}
+.ex_title hr{
+	width: 210px;
+	background:#3d6cb0;
+	float: right;
+	margin-right:20px;
+	margin-top: -75px;
+	height: 5px;
+
+}
+.il{
+	width: 30px;
+	height: 30px;
+	background: black;
+	border-radius:30px; 
+	float: left;
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.exper{
+	width: 620px;
+	height: 160px;
+	float: right;
+	margin-top: 5px;
+}
+.exper h4{
+	float: left;
+	text-transform: uppercase;
+	margin-left: 20px;
+	margin-top: 10px;
+	font-size: 22px;
+}
+.exper p{
+	float: left;
+	margin-top: 12px;
+	font-size: 19px;
+	margin-left: 10px;
+}
+.exper #names{
+	float: left;
+	margin-left: -368px;
+	margin-top: 40px;
+	font-size: 19px;
+}
+#lorf{
+	float: left;
+	margin-left: 60px;
+
+}
+.soft{
+	float: right;
+	width: 620px;
+	height: 500px;
+	margin-right: 5px;
+	margin-top: 10px;
+}
+.sof_title h1{
+	width: 460px;
+	color: #3d6cb0;
+	float: right;
+	margin-right:5px;
+	margin-top:-90px;
+	text-transform: uppercase;
+}
+.sof_title hr{
+	width: 240px;
+	background:#3d6cb0;
+	float: right;
+	margin-right:20px;
+	margin-top: -75px;
+	height: 5px;
+
+}
+.progres{
+	width: 300px;
+	height: 350px;
+	float: left;
+	margin-left:10px;
+	margin-top: 10px;
+}
+.progres progress{
+	margin-top: 20px;
+	width: 300px;
+    color: #3d6cb0;
+    height: 30px;
+}
+.progres h2{
+	text-transform: uppercase;
+	margin-top: 15px;
+}
+.prog{
+	width: 300px;
+	height: 350px;
+	float: right;
+	margin-top: 10px;
+}
+.prog progress{
+	margin-top: 20px;
+	width: 300px;
+    color: #3d6cb0;
+    height: 30px;
+}
+.prog h2{
+	text-transform: uppercase;
+	margin-top: 15px;
+}
